@@ -1,0 +1,53 @@
+*{margin: 0; padding: 0;}
+body{background: url(images/painel_body.jpg) repeat-x #f4f4f4;}
+#box{width: 1024px; margin: 0 auto;}
+
+/* Header */
+#header{height: 110px; border-bottom: 5px solid #930; margin-bottom: 5px;}
+#header_logo{float: left; margin: 0;}
+#header_logo img{width: 80px;}
+#header_banner{padding: 3px; text-align: center; margin-top: 5px;}
+#header_banner h1{font: 60px Arial, Helvetica, sans-serif;}
+
+#local{width: 1024px; font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #666; font-variant: small-caps; float: left; padding: 5px 0;}
+#local .caminho{float: left; margin: 0 0 0 20%;}
+#local .welcome{float: right;}
+
+/* Conteudo */
+#content{width: 1024px; margin: 5px 0 0 13%;}
+
+/* Menu */
+#content_menu{width: 195px; background: #fff; border: 1px solid #CCC; margin: 0 5px 0 0; float: left; padding: 5px;}
+#content_menu ul{list-style: none; margin: 0 0 5px 0; padding: 0; float: left;}
+#content_menu ul li{font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; float: left;}
+#content_menu ul li a{text-decoration: none; color: #333; float: left; width: 195px; border-bottom: 1px solid #CCC; padding: 3px 0;}
+#content_menu ul li a:hover{background: #E5E5E5;}
+#content_menu ul .titulo{padding: 3px; background: #f4f4f4; float: left; width: 189px; color: #930; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; margin: 0 0 5px 0;}
+
+/* Content Conteudo */
+#content_conteudo{width: 800px; background: #fff; border: 1px solid #CCC; float: right; padding: 5px;}
+#content_conteudo h1{font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #930;}
+#content_conteudo h2{font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #666;}
+#content_conteudo h3{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #999;}
+#content_conteudo .ok{padding: 5px; background: #B3FFD9; font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; border: 1px solid #333;}
+#content_conteudo .no{padding: 5px; background: #FDD; font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; border: 1px solid #333;}
+#content_conteudo .carregando{padding: 5px; background: #CEEFFF; font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; border: 1px solid #333;}
+#content_conteudo .error{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight: bold; color: #900;}
+
+#content_conteudo p{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; margin: 10px 0;}
+
+
+#content_conteudo form{background: #f4f4f4; padding: 5px;}
+#content_conteudo fieldset{border: none; padding: 5px;}
+#content_conteudo legend{font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #069;}
+#content_conteudo label{display: block; margin: 5px 0;}
+#content_conteudo span{font: 16px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; display: block;}
+#content_conteudo input{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; padding: 3px;}
+#content_conteudo textarea{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333; padding: 3px; display: block;}
+#content_conteudo select{font: 14px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #333;}
+#content_conteudo .btn{padding: 0; margin: 0;}
+#content_conteudo a{font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #069;}
+#content_conteudo a:hover{color: #003;}
+#content_conteudo .inbox a{font: 12px Arial, Helvetica, sans-serif; font-weight: bold; text-transform: uppercase; text-decoration: none; color: #005789;}
+#content_conteudo .inbox a:hover{color: #0CF;}
+#footer{width: 1012px; padding: 5px; background: #fff; border: 1px solid #CCC; float: left;margin: 5px 0 0 13%; text-align: center; font: 18px "Trebuchet MS", Arial, Helvetica, sans-serif; color: #666;}
