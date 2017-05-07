@@ -47,10 +47,9 @@
         <div class="w-row">
           <div class="colun1 w-col w-col-6">
             <div class="w-widget w-widget-map" data-widget-latlng="-23.964,-46.372986" data-widget-tooltip="Trancoso Imóveis" data-widget-zoom="15"></div>
-            <div class="situado">Av. Prefeito José Monteiro, 515 - loja 2 - Vila Valença, São Vicente - SP, 11380-001</div>
           </div>
           <div class="w-col w-col-6">
-            <h3>Envie um Pedido</h3>
+            <h3 style=" text-align: center;">Envie um Pedido</h3>
             <div class="w-form">
               <form class="contact-form" data-name="Email Form" id="email-form" method="get" name="email-form">
                 <label class="field-label" for="name">Nome:</label>
@@ -59,7 +58,10 @@
                 <input class="contact-field w-input" data-name="Email" id="email" maxlength="256" name="email" placeholder="Entre com seu email" required="required" type="email">
                 <label class="field-label" for="Message">Mensagem:</label>
                 <textarea class="contact-field message w-input" data-name="Message" id="Message" maxlength="5000" name="Message" placeholder="Tire suas duvidas aqui" required="required"></textarea>
-                <input class="button w-button" data-wait="Please wait..." type="submit" value="Enviar">
+                <input class="button w-button" data-wait="Please wait..." type="submit" value="Enviar" 
+                style=
+                   "margin: 0 auto;
+                   display: block !important">
               </form>
               <div class="success-message w-form-done">
                 <p class="success-text"><strong>Obrigado! Sua solicitação foi enviada com sucesso !</strong>
@@ -69,17 +71,25 @@
                 <p class="a">Oops! Ocorreu um erro ao enviar o formulário !</p>
               </div>
             </div>
-            <div class="telefone">Ou
-              <br>Tel.: (13) 3467-7076
-              <br>Atendimento Seg à Sex: 09:30 ao 12:00 am e 13:00 às 18:00 pm
-              <br>Sab: 09:30 às 13:00</div>
+          </div>
+          <div class="w-col w-col-12" style=" margin-top: 0px;">
+            <div class="telefone">
+                <h4 class="telefone">
+                  <span>Atendimento:</span>
+                  <span>Segunda à Sexta: 09:30 às 12:00 e 13:00 às 18:00</span>
+                  <span>Sábado: 09:30 às 13:00</span>
+                </h4>
+                <h6>Av. Prefeito José Monteiro, 515 - loja 2 - Vila Valença, São Vicente - SP, 11380-001 <br></h6>
+                <h6>Telefone: (13) 3467-7076</h6>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <div class="dark main-section">
-      <div class="container-footer w-container"><a class="boto-contato w-button" href="contato.html">Contato</a>
-      </div>
+    <div class="dark main-section" style=" padding-top: 0px !important;">
+      <!--<div class="container-footer w-container"><a class="boto-contato w-button w--current" href="contato.html">Contato</a>
+        </div>
+        !-->
       <div class="footer-section">
         <div class="w-container">
           <a class="footer-logo w-inline-block" href="index.html">

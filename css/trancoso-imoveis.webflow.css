@@ -80,6 +80,16 @@ img {
   margin-bottom: 10px;
 }
 
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-center {
+  text-align: center !important;
+}
+
 .hero-section {
   position: relative;
   height: 500px;
@@ -887,7 +897,7 @@ img {
 }
 
 .contact-field.message {
-  height: 150px;
+  height: 123px;
 }
 
 .social-text {
@@ -985,16 +995,23 @@ img {
 
 .boto-contato {
   position: static;
-  padding: 13px 35px;
-  float: none;
-  border: 3px none #000;
-  border-radius: 5px;
-  box-shadow: 1px 1px 3px 0 #000;
-  -webkit-transition: color 500ms ease;
-  transition: color 500ms ease;
-  color: #c9c9c9;
+  display: block;
+  width: 200px;
+  margin-right: auto;
+  margin-bottom: 62px;
+  margin-left: auto;
+  border: 8px none #000;
+  border-radius: 15px;
+  background-color: #999390;
+  box-shadow: 0 0 15px 0 #000;
+  -webkit-transition: z-index 200ms ease;
+  transition: z-index 200ms ease;
+  font-family: Exo, sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
   text-align: center;
-  text-shadow: 1px 1px 6px #000;
+  text-shadow: 0 1px 0 #000;
 }
 
 .boto-contato:hover {
@@ -1172,10 +1189,8 @@ img {
 
 .telefone {
   border-radius: 25px;
-  background-image: -webkit-linear-gradient(270deg, #43d3f0, #43d3f0);
-  background-image: linear-gradient(180deg, #43d3f0, #43d3f0);
   color: #000;
-  font-size: 24px;
+  font-size: 15px;
   line-height: 30px;
   text-align: center;
 }
